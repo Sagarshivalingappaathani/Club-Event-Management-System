@@ -19,7 +19,7 @@ The Club Event Management System is a comprehensive web application built to str
 1. Clone the repository:
 
    ```bash
-   https://github.com/Praveenkumar5048/IT254-WEB.git 
+   https://github.com/Sagarshivalingappaathani/Club-Event-Management-System.git
 2. ```bash
    cd Backend   
    npm install
