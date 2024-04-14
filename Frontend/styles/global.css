@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper {
+  width: 400px;
+  height: 530px;
+  background-color: #fff;
+}
+
+.swiper-slide {
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Adjust the distance between cards and bullets */
+}
+
+.swiper-pagination-bullet {
+  width: 8px; /* Bullet width */
+  height: 8px; /* Bullet height */
+  background-color: rgba(0, 0, 0, 0.5); /* Bullet color */
+  border-radius: 50%; /* Rounded bullet */
+  margin: 0 5px; /* Spacing between bullets */
+  opacity: 0.5; /* Initial opacity */
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1; /* Active bullet opacity */
+}
+
+/* global.css or your custom CSS file */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+
+
+.fc-header-toolbar .fc-prev-button,
+.fc-header-toolbar .fc-next-button,
+.fc-header-toolbar .fc-today-button,
+.fc-header-toolbar .fc-button {
+  background-color: #57C0AB; /* Green background color for prev, next, today buttons */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Apply border radius */
+  padding: 6px 12px; /* Add padding */
+  margin: 0 4px; /* Add margin */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.fc-header-toolbar .fc-prev-button:hover,
+.fc-header-toolbar .fc-next-button:hover,
+.fc-header-toolbar .fc-today-button:hover,
+.fc-header-toolbar .fc-button:hover {
+  background-color: #36a992; /* Darker green background color on hover */
+}
