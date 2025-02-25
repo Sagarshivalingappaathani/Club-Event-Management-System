@@ -4,7 +4,11 @@
 The Club Event Management System is a comprehensive web application built to streamline event organization within clubs or organizations. Powered by Mycalendar.js library, it provides a fully-fledged calendar interface for admins to schedule and manage events effortlessly. Users can explore upcoming events, register for participation, and provide feedback for concluded events, enhancing engagement and community interaction.
 
 # Demo
-
+![Alt text](Demo/hero.png)
+![Alt text](Demo/about.gif)
+![Alt text](Demo/calender.png)
+![Alt text](Demo/calender.png)
+![Alt text](Demo/all-events.png)
 
 ### Features
 - Event Scheduling: Admins can easily create, update, and delete events on the calendar.
