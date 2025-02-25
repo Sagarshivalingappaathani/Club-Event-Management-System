@@ -7,7 +7,7 @@ The Club Event Management System is a comprehensive web application built to str
 ![Alt text](Demo/hero.png)
 ![Alt text](Demo/about.gif)
 ![Alt text](Demo/calender.png)
-![Alt text](Demo/calender.png)
+![Alt text](Demo/create-form.png)
 ![Alt text](Demo/all-events.png)
 
 ### Features
